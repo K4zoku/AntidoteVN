@@ -1,0 +1,19 @@
+Messages:
+  Prefix: '&9[&aAntidoteVN&9]'
+  Help:
+    - '/antidote help - View this page'
+    - '/antidote use <player> - Use for other'
+    - '/antidote reload - Reload config'
+  Used: '&aAntidote Successfully'
+  UseOther: '&aAntidote for {0} Successfully'
+  UsedByOther: '&aAntidote by {0}'
+  MustBePlayer: '&cYou must be a player to use this command'
+  PlayerNotExist: '&cPlayer not online or not exist!'
+  NoPerm: '&4You don''t have permission'
+  Reloaded: '&aReloaded Successfully'
+Item:
+  Name: '&aAntidote Potion'
+  Lore:
+    - '&f&m--------------'
+    - '&f&m--&9<&aAntidote&9>&f&m--'
+    - '&f&m--------------'

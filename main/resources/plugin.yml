@@ -1,0 +1,11 @@
+name: AntidoteVN
+version: 1.5
+main: takahatashun.Main
+prefix: AntidoteVN
+authors: [TakahataShun]
+description: AntidoteVN
+website: http://mc-swordart.online
+commands:
+  antidote:
+    description: AntidoteVN - Coded by TakahataShun
+    default: op

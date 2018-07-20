@@ -25,7 +25,7 @@ public class Config {
         if(!ConfigFile.exists()){
             try {
                 Config.loadFromString(
-                    "Messages:\n" +
+                        "Messages:\n" +
                         "  Prefix: '&9[&aAntidoteVN&9]'\n" +
                         "  Help:\n" +
                         "    - '/antidote help - View this page'\n" +

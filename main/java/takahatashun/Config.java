@@ -24,7 +24,8 @@ public class Config {
     public static void saveDefaultsConfig(){
         if(!ConfigFile.exists()){
             try {
-                Config.loadFromString("Messages:\n" +
+                Config.loadFromString(
+                	    "Messages:\n" +
                         "  Prefix: '&9[&aAntidoteVN&9]'\n" +
                         "  Help:\n" +
                         "    - '/antidote help - View this page'\n" +
@@ -42,7 +43,8 @@ public class Config {
                         "  Lore:\n" +
                         "    - '&f&m--------------'\n" +
                         "    - '&f&m--&9<&aAntidote&9>&f&m--'\n" +
-                        "    - '&f&m--------------'");
+                        "    - '&f&m--------------'"
+                        );
             } catch (InvalidConfigurationException e) {
                 e.printStackTrace();
             }
